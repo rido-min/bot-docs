@@ -11,8 +11,16 @@ ms.date: 11/07/2024
 
 # Architecture
 
-```mermaid
+<pre class="mermaid">
 graph TD
     A[Presentation Layer] --> B[Business Logic Layer]
     B --> C[Data Access Layer]
-```
+</pre>
+
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
